@@ -1,0 +1,14 @@
+
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+@import 'variables';
+@import 'blocks/header';
+@import 'components/buttons';
+@import 'components/form';
+
+
+/* CSS Document */
+body{
+        color:$color--text;
+}
