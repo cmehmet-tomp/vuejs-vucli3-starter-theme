@@ -1,4 +1,4 @@
-# fullsepp-final-version
+# VueJs - VueCLi3 - Starter Theme
 
 ## Project setup
 ```
