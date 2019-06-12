@@ -1,72 +1,14 @@
-{
-    "alerts":
-    {
-        "succesful_login" : "Başarıyla giriş yapildı",
-        "succesful_logout" : "Başarıyla çikiş yapildı",
-        "succesful_register" : "Başarıyla kayıt olundu. Lütfen aktivasyon için e-postanızı kontrol edin.",
-        "succesful_account_activation" : "Hesabınız başarıyla etkinleştirildi. Lütfen giriş yapın.",
-        "succesful_account_reset_email" : "Bizde bir hesabınız varsa, kısa süre içinde bir e-posta alacaksınız.",
-        "succesful_data_loaded" : "Veri yüklendi.",
-        "succesful_data_updated" : "Veri güncellendi.",
-        "succesful_data_saved" : "Ayrıntılar kaydedildi.",
-        "succesful_manager_deleted" : "Yonetici başarıyla silindi.",
-        "succesful_language_deleted" : "Dil başarıyla silindi."
-    },
-    
-    "expressionInputs":
-    {
-        "yes" : "Evet",
-        "no" : "hayır",
-        "get" : "Al",
-        "dont_get" : "Alma"
-    },
-    "fieldInputs":
-    {
-        "email" : "E-Mail",
-        "password" : "Şifre",
-        "confirm_password" : "Şifreyi dogrula",
-        "age" : "Yaş",
-        "form_errors_check" : "Lütfen tüm zorunlu alanları doldurduğunuzdan emin olun",
-        "date_format_type_1" : "Gun.Ay.Yıl",
-        "date_format_type_2" : "Gun/Ay/Yıl"
-    },
-
+{   
     "homepage":
     {
-        "hello_string" : "Merhaba"
+        "title" : "Element UI ile VueJS CLI Başlangıç ​​Teması"
     },
-
-    "register_page":
+    "components":
     {
-        "login_welcome" : "Giriş Yap",
-        "forgot_password" : "Şifremi Unuttum",
-        "login_button" : "Giriş Yap",
-        "login_failed" : "Giris hatasi hdkajshdkjashdka",
-        "captcha_solve" : "Resimde görünen karakterleri alttaki kutuya girerek doğrulama yapınız.",
-        "register_welcome" : "Üye Ol",
-        "register_button" : "KAYDOL"
+        "title" : "Bileşenler"
     },
-
-    "genel_tercihler_page":
+    "vuex":
     {
-        "title-time-preferences" : "Zamanlar ve Birimler",    
-        "preference-timezone" : "Zaman Tercihi",
-        "preference-date-format" : "Tarih Tercihi",
-        "preference-weight-unit" : "Tercih Ağırlık Birimi",
-        "preference-length-unit" : "Tercih Uzunluk Birimi",
-        "preference-temperature-unit" : "Temperature unit",
-        "preference-volume-unit" : "Volume Unit",
-        "preference-language" : "Dil Tercihi",
-        "title-email-preferences" : " E-Mail Tercihleri",
-        "preference-email-language-preference" : "E-mail Dil Tercihi ",
-        "preference-general-read-mail-notifications" : "Genel Okur Mail Bildirimleri  ",
-        "preference-general-author-mail-notifications" : "Yazsar E-Mail Bildirimleri ",
-        "preference-general-translator-mail-notifications" : "Çevirmen E-Mail Bildirimleri",
-        "preference-general-fullsep-friend-request-mail-notifications" : "Fulsepp için arkadaş mesajları, E-mail bildirimi olarak gelsin mi?",
-        "preference-general-fullsep-commercial-mail-notifications" : "Fulsepp için ticari mesajlar, E-mail bildirimi olarak gelsin mi?",
-        "preference-general-fullsep-all-mail-notifications" : "Fulsepp'teki bildirimlerin E-mail'ine gelsin mi?"
+        "title" : "Vuex Store gönderilen ve yazdırılan özel bir mesaj."
     }
-
-
-    
 }

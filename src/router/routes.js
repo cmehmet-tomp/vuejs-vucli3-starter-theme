@@ -1,10 +1,7 @@
-import {store} from '@state'
-
-
 import PageHome from '@views/home'
-import PageRegister from '@views/register'
+import PageComponents from '@views/components'
+import PageVuex from '@views/vuex'
 
-import Dashboard from '@views/dashboard'
 
 export default [
   {
@@ -15,22 +12,23 @@ export default [
       authRequired: false
     }
   },
-  {
-    path: '/register',
-    name: 'register',
-    component: PageRegister,
-    meta: {
-      authRequired: false
-    },
-  },
+  
   
   {
-    path :'/dashboard',
-    component: Dashboard,
+    path :'/components',
+    component: PageComponents,
     meta: {
-      authRequired: true,
+      authRequired: false,
     }
   },
+  {
+    path :'/vuex',
+    component: PageVuex,
+    meta: {
+      authRequired: false,
+    }
+  },
+  
   {
     path: '/404',
     name: '404',

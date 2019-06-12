@@ -1,7 +1,7 @@
 <template>
-    <div>
-        Footer
-    </div>
+    <el-main>
+        <!-- This is footer component.-->
+    </el-main>
 </template>
 
 <script>

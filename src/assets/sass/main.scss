@@ -1,14 +1,35 @@
-
-@import '~bootstrap/dist/css/bootstrap.css';
-@import '~bootstrap-vue/dist/bootstrap-vue.css';
-
 @import 'variables';
 @import 'blocks/header';
 @import 'components/buttons';
 @import 'components/form';
 
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,500,700&display=swap');
+
 /* CSS Document */
 body{
         color:$color--text;
+        font-family: 'Merriweather', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:bold;
+}
+
+h6{
+        font-size:11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+}
+
+
+.error404{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        background: #01807f0f;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 50px;
 }

@@ -1,74 +1,14 @@
 {   
-    "alerts":
-    {
-        "succesful_login" : "Logged In successfully",
-        "succesful_logout" : "Logged out succesfuly",
-        "succesful_register" : "Registered successfully. Please check your email for activation.",
-        "succesful_account_activation" : "Your account has been activated successfully. Please login.",
-        "succesful_account_reset_email" : "If you have an account with us, shortly you will receive an email.",
-        "succesful_data_loaded" : "Data has been loaded.",
-        "succesful_data_updated" : "Data has been updated.",
-        "succesful_data_saved" : "Details have been saved.",
-        "succesful_manager_deleted" : "Manager has been deleted successfully.",
-        "succesful_language_deleted" : "Language has been deleted."
-    },
-   
-    "expressionInputs":
-    {
-        "yes" : "yes",
-        "no" : "no",
-        "get" : "Receive",
-        "dont_get" : "Don't receive"
-    },
-    "fieldInputs":
-    {
-        "email" : "E-Mail",
-        "password" : "Password",
-        "confirm_password" : "Confirm password",
-        "age" : "Age",
-        "form_errors_check" : "Please make sure you fill all required fields",
-        "date_format_type_1" : "Day.Month.Year",
-        "date_format_type_2" : "Day/Month/Year"
-    },
-
     "homepage":
     {
-        "hello_string" : "Hello"
+        "title" : "VueJS CLI Starter Theme with Element UI"
     },
-
-    "register_page":
+    "components":
     {
-        "login_welcome" : "Please login",
-        "forgot_password" : "I forgot my password",
-        "login_button" : "Login",
-        "login_failed" : "Login failed, please check your crendetials.",
-        "captcha_solve" : "Please solve the captcha below",
-        "register_welcome" : "Become a member",
-        "register_button" : "Register"
+        "title" : "Components"
     },
-
-    "genel_tercihler_page":
+    "vuex":
     {
-        "title-time-preferences" : "Timezone and Units",    
-        "preference-timezone" : "Timezone",
-        "preference-date-format" : "Date format type",
-        "preference-weight-unit" : "Weight unit",
-        "preference-length-unit" : "Length unit",
-        "preference-temperature-unit" : "Temperature unit",
-        "preference-volume-unit" : "Volume unit",
-        "preference-language" : "Language choice",
-        "title-email-preferences" : "E-Mail Preferences",
-        "preference-email-language-preference" : "E-mail Language Preference",
-        "preference-general-read-mail-notifications" : "Receive General Read Mail Notifications",
-        "preference-general-author-mail-notifications" : "Receive Author E-Mail Notifications",
-        "preference-general-translator-mail-notifications" : "Receive Translator E-Mail Notifications",
-        "preference-general-fullsep-friend-request-mail-notifications" : "Send me an email when I receive a message from friends in Fullsepp.",
-        "preference-general-fullsep-commercial-mail-notifications" : "Send me an email when I receive commercial messages in Fullsepp",
-        "preference-general-fullsep-all-mail-notifications" : "Send me an email for all notifications I get in Fullsepp"
+        "title" : "A custom message sent to Vuex Store and printed."
     }
-
-    
-
-
-    
 }

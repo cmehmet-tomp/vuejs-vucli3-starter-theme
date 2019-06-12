@@ -4,6 +4,12 @@ import App from './App.vue'
 import router from '@router'
 import {store} from '@state'
 
+
+
+import Element from 'element-ui'
+import '@src/assets/sass/element-variables.scss'
+Vue.use(Element);
+
 // Main SASS
 import '@sass'
 
@@ -18,13 +24,6 @@ Vue.i18n.add('en', translationsEn);
 
 // set the start locale to use
 Vue.i18n.set('en');
- 
-import global_alerts from '@src/plugins/alerts.js'
-Vue.use(global_alerts)
-
-import global_plugins from '@src/plugins/global_plugins.js'
-Vue.use(global_plugins)
-
 
 Vue.config.productionTip = false
 

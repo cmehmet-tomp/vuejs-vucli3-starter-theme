@@ -1,12 +1,19 @@
 <template>
-<div class="page-content-center">
-     
-    <div class="page-content">
-           <h1>{{ $t('homepage.hello_string') }}</h1>
-           <router-link :to="'/register'">Register</router-link>
-      </div>
+  <el-main>
+      <el-row>
+        <el-container>
+            <div class="page-content text-center">
+              <h1>{{ $t('homepage.title') }}</h1>
+            <el-row>
+              <el-link type="primary" :href="'/components'">Components</el-link>
+            </el-row>
+          
+        </div>
+        </el-container>
+      </el-row>
 
-</div>
+      <upcoming/>
+  </el-main>
 
 
 </template>
@@ -14,15 +21,19 @@
 
 
 <script>
+import thingsDone from "@src/components/thingsDone"
 export default {
   name: 'Homepage',
+  components: {
+      'upcoming': thingsDone
+  },
   data () {
     return {
       
     }
   },
   metaInfo: {
-      title: 'Fullsepp',
+      title: 'Welcome',
       meta: [
         { name: 'description', content: 'Page description goes here.' },
         {
@@ -58,7 +69,6 @@ export default {
     
     
    },
-  components : { },
   beforeUpdate() {
         
   },
@@ -67,7 +77,8 @@ export default {
   },
   beforeMount(){
     
-  }
+  },
+  
 
 }
 </script>

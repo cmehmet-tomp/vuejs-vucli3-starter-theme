@@ -1,7 +1,10 @@
 <template>
-    <div>
-            404 error page
-    </div>
+    <el-main>
+        <div class="error404">
+           <h1> 404 error page</h1>
+        </div>
+           
+    </el-main>
 </template>
 
 <script>
