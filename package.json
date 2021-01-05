@@ -9,7 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "element-ui": "^2.9.1",
     "jwt-decode": "^2.2.0",
